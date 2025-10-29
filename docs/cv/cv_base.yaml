@@ -1,0 +1,65 @@
+name: Giovanni López
+title: Data Professional
+location: Zürich, Switzerland
+email: giovannilopez@hotmail.com
+phone: "+41 77 475 83 44"
+languages: [English, German, Spanish]
+
+summary: >
+  Data Engineer specialized in the design and implementation of data pipelines,
+  marketing analytics infrastructure, and tracking systems. Proven experience
+  bridging marketing and engineering teams to build robust, scalable, and
+  insight-driven data solutions.
+
+skills:
+  technical:
+    - Python, SQL, AWS, Postgres, Airflow
+    - GA4, GTM, Tealium, Adobe Analytics
+    - Data Modeling, ETL, Dashboards (Streamlit, PowerBI)
+  soft:
+    - Cross-functional collaboration
+    - Communication & stakeholder alignment
+    - Mentoring and technical ownership
+
+experience:
+  - company: JobCloud AG
+    role: Data Engineer
+    years: 2019 - Present
+    highlights:
+      - Led the web tracking and marketing data pipelines for 50+ data sources.
+      - Designed a marketing attribution model enabling better campaign investment.
+      - Partnered with product and marketing teams to align measurement frameworks.
+      - Built BI dashboards for performance insights used across departments.
+
+  - company: Kantonsspital Aarau AG
+    role: Deputy Head of Clinical Engineering
+    years: 2010 - 2018
+    highlights:
+      - Designed and implemented a BI app for service analytics (100k+ work orders).
+      - Improved operational visibility and data-driven decision making.
+
+  - company: GE Aviation
+    role: Design & Repair Engineer
+    years: 2004 - 2010
+    highlights:
+      - Developed repair procedures for GE’s commercial aircraft engines.
+      - Collaborated globally on high-precision technical projects.
+
+education:
+  - institution: ZHAW School of Engineering
+    program: CAS Machine Intelligence / CAS Information Engineering
+    years: 2017 - 2018
+  - institution: Universität Bern
+    program: Biomedical Engineering (Graduate Studies)
+    years: 2012
+  - institution: Universidad Michoacana de San Nicolás de Hidalgo
+    program: B.Sc. Mechanical Engineering
+    years: 2004
+
+projects:
+  - title: Marketing Attribution Model
+    description: Built a Python-based model for marketing channel grouping and ROI insights.
+  - title: Web Tracking Framework
+    description: Designed tracking data pipelines integrating Tealium, GA4, and internal DWH.
+  - title: Service Analytics Dash App
+    description: Developed a Dash web app to analyze 100k+ medical device work orders.

@@ -1,0 +1,17 @@
+{% set year = config.extra.current_year | default(build_year, true) %}
+<footer class="md-footer">
+  <div class="md-footer__inner md-grid footer-wrap">
+    <div class="footer-left">
+      <strong>Giovanni López</strong> — Data Professional in Zürich 🇨🇭<br>
+      Born in Mexico 🇲🇽, living the alpine dream: data, bikes, mountains.
+    </div>
+    <div class="footer-right">
+      <a href="mailto:giovannilopez@hotmail.com">giovannilopez@hotmail.com</a>
+      <span aria-hidden="true">·</span>
+      <a href="https://www.linkedin.com/in/giovlopez/" target="_blank" rel="noopener">LinkedIn</a>
+      <span aria-hidden="true">·</span>
+      <a href="https://github.com/pandastrail/gio-data-pro" target="_blank" rel="noopener">GitHub</a>
+      <div class="tiny">© {{ year }} • Built with MkDocs Material</div>
+    </div>
+  </div>
+</footer>

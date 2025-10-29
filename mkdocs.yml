@@ -1,0 +1,112 @@
+site_name: Giovanni López — Data Professional
+site_description: Data engineering, analytics, web tracking, and cycling-flavored projects in Switzerland.
+site_url: https://gio-data-pro.github.io/
+repo_url: https://github.com/pandastrail/gio-data-pro
+repo_name: gio-data-pro
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  logo: assets/images/logo.svg        # optional (add later)
+  favicon: assets/images/favicon.png  # optional (add later)
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: cyan
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.footer
+    - content.code.copy
+    - content.action.edit
+    - content.tabs.link
+    - toc.follow
+    - header.autohide
+    - announce.dismiss
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/gio-data-pro
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/giovlopez/
+      name: LinkedIn
+    - icon: material/bicycle
+      link: https://www.bikeflow.ch/
+      name: Swiss Cycling Guide @ BikeFlow
+    - icon: material/water
+      link: https://mapaqua.ch/
+      name: MapAqua
+    - icon: material/chart-line
+      link: https://velocrash.streamlit.app/
+      name: VeloCrash
+  generator: false   # hide "Made with MkDocs" line (we’ll use a custom footer)
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Résumé: cv/index.md
+  - Projects:
+      - 12-Question Value Survey: projects/gios_twelve_questions_value_survey.md
+      - Attribution Model: projects/attribution_model.md
+      - Tracking Framework: projects/tracking_framework.md
+      - Data Mesh Governance: projects/data_mesh_governance.md
+      - Data Governance Principles: projects/governance_principles.md
+      - Finding Drinkable Water: projects/mapaqua.md
+plugins:
+  - search
+  - tags
+  - macros:
+      include_yaml:
+        - cv: docs/cv/cv_base.yaml
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.extra
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.progressbar
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - assets/css/custom.css
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+  - assets/js/mermaid-init.js

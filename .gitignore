@@ -208,3 +208,6 @@ __marimo__/
 
 # Private CV files
 cv/private/*
+
+# Private scripts
+scripts/*

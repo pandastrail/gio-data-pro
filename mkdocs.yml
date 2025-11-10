@@ -1,7 +1,7 @@
 site_name: Giovanni López
 site_description: Data engineering, analytics, web tracking, and cycling-flavored projects in Switzerland.
 site_url: https://pandastrail.github.io/gio-data-pro.git
-repo_url: https://github.com/pandastrail
+repo_url: https://github.com/pandastrail/gio-data-pro.git
 repo_name: gio-data-pro
 
 theme:

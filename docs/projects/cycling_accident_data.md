@@ -124,3 +124,6 @@ The dashboard makes data approachable — not just for analysts, but for everyda
 
 > **VeloCrash** reminds us that behind every data point is a story,
 > and that better data can lead to safer rides for everyone.
+
+---
+Navigation on the left sidebar, or back to [Projects Overview](../projects/index.md)

@@ -158,3 +158,6 @@ That’s **data mesh governance** — not about slowing people down, but making 
 ---
 
 > *Good governance isn’t about control. It’s about creating the conditions for safe creativity — where data and AI can move fast, responsibly, and with purpose.*
+
+---
+Navigation on the left sidebar, or back to [Projects Overview](../projects/index.md)

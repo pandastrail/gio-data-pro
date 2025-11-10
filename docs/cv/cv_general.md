@@ -25,18 +25,24 @@
 
 *{{ job.years }}*
 {% for h in job.highlights %}
+
 - {{ h }}
+  
 {% endfor %}
 {% endfor %}
 
 ## Education
 
 {% for ed in cv.education %}
+
 - **{{ ed.program }}**, {{ ed.institution }} ({{ ed.years }})
+  
 {% endfor %}
 
 ## Projects
 
 {% for p in cv.projects %}
+
 - **{{ p.title }}:** {{ p.description }}
+  
 {% endfor %}

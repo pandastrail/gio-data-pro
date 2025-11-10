@@ -61,3 +61,19 @@
 .mermaid {
   overflow: auto;
 }
+
+/* Make header logo bigger (affects desktop + mobile) */
+.md-header__button.md-logo img {
+  height: 2.2rem;       /* try 2.0–3.0rem */
+  width: auto;          /* keep aspect ratio */
+}
+
+/* Optional: give the title some breathing room when logo grows */
+.md-header__title {
+  margin-left: 0.25rem;
+}
+
+/* Optional: slightly increase header height if needed */
+.md-header {
+  min-height: 3.2rem;
+}

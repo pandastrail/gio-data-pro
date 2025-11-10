@@ -1,0 +1,16 @@
+sequenceDiagram
+  participant U as User
+  participant W as Website
+  participant GA as GA4 / Tealium
+  participant DWH as Data Warehouse
+  participant SF as Salesforce CRM
+  participant SOC as Social Data Product
+  participant BI as Power BI
+
+  U->>W: Visits page with tracking tags
+  W->>GA: Sends event, page_view, campaign_id=SPRING24
+  GA->>DWH: Export event
+  SF->>DWH: Provide enriched customer attributes
+  SOC->>DWH: Publish social campaign metrics
+  DWH->>BI: Join all data sources
+  BI->>Marketing Team: Unified campaign report

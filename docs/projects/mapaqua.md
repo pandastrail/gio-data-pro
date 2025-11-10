@@ -116,3 +116,6 @@ flowchart TD
 
 > **MapAqua** is proof that big data doesn’t have to be big —
 > sometimes, it’s just a drop of code making life easier for someone on a hot day.
+
+---
+Navigation on the left sidebar, or back to [Projects Overview](../projects/index.md)

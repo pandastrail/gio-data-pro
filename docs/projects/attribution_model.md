@@ -1,4 +1,6 @@
-# Marketing Attribution Model (In-House Build)
+# Marketing Attribution Model
+
+> In-House Build Solution
 
 **Duration:** 3 months  
 **When:** Spring 2024
@@ -114,7 +116,7 @@ This logic effectively reproduces UA’s last non-direct click model:
 
 ## Model Workflow Overview
 
-``` mermaid
+```mermaid
 flowchart TD
   A[Event Data, i.e. Pageviews, Conversions] --> B[UTM Channel Mapping]
   B --> C[Sessionized Dataset]
@@ -122,7 +124,7 @@ flowchart TD
   D --> E[Aggregated Channel Report]
   E --> F[Dashboard]
   F --> G[Marketing Performance Insights]
-  ```
+```
 
 ## Validation & Results
 
@@ -150,3 +152,6 @@ After full rollout, we benchmarked results against UA data for the same time per
 - Explore multi-touch attribution models (position-based, time-decay).
 - Integrate GA4 events and CRM interactions for full customer-journey view.
 - Automate data freshness monitoring and QA alerts.
+
+---
+Navigation on the left sidebar, or back to [Projects Overview](../projects/index.md)

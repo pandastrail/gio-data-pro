@@ -1,4 +1,6 @@
-# Tracking Framework — Hybrid Monolith + Mesh Architecture
+# Tracking Framework
+
+> Hybrid Monolith + Mesh Architecture
 
 **Duration:** Ongoing  
 **Stack:** GA4, Tealium, AWS (Glue, S3, Redshift), Salesforce, Power BI  
@@ -34,12 +36,12 @@ flowchart TD
   end
 
   subgraph Core[Central Tracking Monolith]
-    WT[Web Tracking Data (GA4 + Tealium)]
-    ENR[Enrichment Layer (Salesforce, CRM, ERP)]
+    WT[Web Tracking Data, GA4 + Tealium]
+    ENR[Enrichment Layer, Salesforce, CRM, ERP]
     DW[Data Warehouse]
   end
 
-  SM -->|Governed Port (API/Table)| DW
+  SM -->|Governed Port, API/Table| DW
   NL -->|Governed Port| DW
   BL -->|Governed Port| DW
   WT --> ENR --> DW
@@ -102,24 +104,7 @@ Hybrid governance keeps freedom *with boundaries*:
 
 A simplified example of how the system interacts for a campaign:
 
-```mermaid
-sequenceDiagram
-  participant U as User
-  participant W as Website
-  participant GA as GA4 / Tealium
-  participant DWH as Data Warehouse
-  participant SF as Salesforce CRM
-  participant SOC as Social Data Product
-  participant BI as Power BI
-
-  U->>W: Visits page with tracking tags
-  W->>GA: Sends event (page_view, campaign_id=SPRING24)
-  GA->>DWH: Export event
-  SF->>DWH: Provide enriched customer attributes
-  SOC->>DWH: Publish social campaign metrics
-  DWH->>BI: Join all data sources
-  BI->>Marketing Team: Unified campaign report
-```
+![Tracking Framework](../assets/images/tracking_framework_hand.png)
 
 ---
 
@@ -171,3 +156,6 @@ A federated ecosystem where web tracking remains the backbone, and channel data 
 ---
 
 > *This hybrid architecture showed that data maturity isn’t about choosing monolith or mesh — it’s about designing the right conversation between the two.*
+
+---
+Navigation on the left sidebar, or back to [Projects Overview](../projects/index.md)

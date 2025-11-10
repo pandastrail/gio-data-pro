@@ -1,4 +1,6 @@
-# Governance Principles — "Safe Speed for Smart Data"
+# Governance Principles
+
+> Safe Speed for Smart Data
 
 Good governance doesn’t mean bureaucracy.  
 It’s like a mountain trail: the signs, maps, and guardrails don’t stop the ride —  
@@ -79,3 +81,6 @@ C -->|Regulatory Log| D[Deployed AI Product]
 
 Governance isn’t about slowing down the data adventure —
 it’s about keeping the journey open, honest, and worth repeating.
+
+---
+Navigation on the left sidebar, or back to [Projects Overview](../projects/index.md)

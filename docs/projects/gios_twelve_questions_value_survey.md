@@ -111,4 +111,4 @@ Label the four quadrants for quick orientation:
 
 ---
 
-Jump to [Projects](./index.md)
+Jump to [Projects](./index.md) or back to [Résumé](../cv/index.md)

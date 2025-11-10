@@ -143,15 +143,9 @@ gio-data-pro/
 │   ├── about.md
 │   ├── cv/
 │   │   ├── index.md
-│   │   ├── cv_general.md
-│   │   ├── cv_on_web_analytics.md
-│   │   └── cv_projects.md
+│   │   ├── ...md
 │   ├── projects/
-│   │   ├── attribution_model.md
-│   │   ├── tracking_framework.md
-│   │   ├── data_mesh_governance.md
-│   │   ├── mapaqua.md
-│   │   └── cycling_accident_data.md
+│   │   ├── ...md
 │   └── assets/
 │       ├── images/
 │       └── css/

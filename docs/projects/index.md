@@ -64,4 +64,4 @@ A quick jump-off to my flagship data projects. Each card includes a short blurb 
 </div>
 
 ---
-Navigation on the left sidebar, or back to [Home](index.md)
+Navigation on the left sidebar, or back to [Home](../index.md)

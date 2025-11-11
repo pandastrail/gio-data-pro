@@ -65,6 +65,7 @@ nav:
     - Overview: projects/index.md
     - 12-Question Value Survey: projects/gios_twelve_questions_value_survey.md
     - Attribution Model: projects/attribution_model.md
+    - Web Analytics Tools Stack: projects/analytics_tools_war.md 
     - Tracking Framework: projects/tracking_framework.md
     - Data Mesh Governance: projects/data_mesh_governance.md
     - Data Governance Principles: projects/governance_principles.md

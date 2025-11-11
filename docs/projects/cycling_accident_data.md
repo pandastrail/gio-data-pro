@@ -126,4 +126,8 @@ The dashboard makes data approachable — not just for analysts, but for everyda
 > and that better data can lead to safer rides for everyone.
 
 ---
+
+**Giovanni López, Oct 2025, Written to document, and proudly showcase our brilliant performance at the Cycling Hack Event**
+
+---
 Navigation on the left sidebar, or back to [Projects Overview](../projects/index.md)

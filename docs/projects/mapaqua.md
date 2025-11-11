@@ -118,4 +118,7 @@ flowchart TD
 > sometimes, it’s just a drop of code making life easier for someone on a hot day.
 
 ---
+**Giovanni López, HochSommer 2025, Written to document the "Hold my Beer" moment of the year**
+
+---
 Navigation on the left sidebar, or back to [Projects Overview](../projects/index.md)

@@ -83,4 +83,7 @@ Governance isn’t about slowing down the data adventure —
 it’s about keeping the journey open, honest, and worth repeating.
 
 ---
+**Giovanni López, Feb 2025, Written while playing with skis on shallow snow, trying to bring some order to my thoughts of how governance should look like**
+
+---
 Navigation on the left sidebar, or back to [Projects Overview](../projects/index.md)

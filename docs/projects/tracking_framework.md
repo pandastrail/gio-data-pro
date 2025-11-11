@@ -158,4 +158,7 @@ A federated ecosystem where web tracking remains the backbone, and channel data 
 > *This hybrid architecture showed that data maturity isn’t about choosing monolith or mesh — it’s about designing the right conversation between the two.*
 
 ---
+**Giovanni López, Oct 2025, Written as an outlet to document my ideas on the topic**
+
+---
 Navigation on the left sidebar, or back to [Projects Overview](../projects/index.md)

@@ -111,6 +111,7 @@ ORDER BY conversions DESC;
 ```
 
 This logic effectively reproduces UA’s last non-direct click model:
+
 - “Direct” sessions don’t override previous campaign sources.
 - Conversions inherit the latest valid campaign within the lookback period.
 
@@ -152,6 +153,9 @@ After full rollout, we benchmarked results against UA data for the same time per
 - Explore multi-touch attribution models (position-based, time-decay).
 - Integrate GA4 events and CRM interactions for full customer-journey view.
 - Automate data freshness monitoring and QA alerts.
+
+---
+**Giovanni López, Dec 2024, Written as a recap of an intense 2024 summer, trying to compete with giants.**
 
 ---
 Navigation on the left sidebar, or back to [Projects Overview](../projects/index.md)

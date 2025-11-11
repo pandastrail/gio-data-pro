@@ -1,9 +1,10 @@
 
 # Data Mesh Governance
+
 > Freedom with Guardrails
 
-**Duration:** Ongoing Initiative  
-**Scope:** Company-wide data governance framework for AI and analytics products  
+**Duration:** Ongoing, Dynamic, and a bit unpredictable.
+**Scope:** A Proposed Company-wide data governance framework for AI and analytics products  
 **Use Case:** Product recommendation system powered by AI-based user segmentation  
 
 ---
@@ -158,6 +159,10 @@ That’s **data mesh governance** — not about slowing people down, but making 
 ---
 
 > *Good governance isn’t about control. It’s about creating the conditions for safe creativity — where data and AI can move fast, responsibly, and with purpose.*
+
+---
+**Giovanni López, Sep 2025, Written along my path of reading, learning, discussing and reflecting on the Mesh concept.**
+
 
 ---
 Navigation on the left sidebar, or back to [Projects Overview](../projects/index.md)

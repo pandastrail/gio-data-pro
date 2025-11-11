@@ -2,6 +2,8 @@
 
 A quick jump-off to my flagship data projects. Each card includes a short blurb and a button to open the full write-up.
 
+## From the Data Universe
+
 <div class="grid cards" markdown>
 
 - :material-calculator:{ .lg .middle } __Marketing Attribution__
@@ -35,6 +37,20 @@ A quick jump-off to my flagship data projects. Each card includes a short blurb 
     Four friendly pillars: __Trust, Autonomy, Compliance, Transparency__
 
     [:octicons-arrow-right-24: See Project](governance_principles.md)
+
+- :material-google-analytics:{ .lg .middle } __Web Analytics Tools__
+
+    ---
+
+    Bringing peace at the Web Analytics Tool Wars, one tool at a time
+
+    [:octicons-arrow-right-24: Take a look](analytics_tools_war.md)
+
+</div>
+
+## More about Bikes, Hikes and Mountains than Data
+
+<div class="grid cards" markdown>
 
 - :material-bike:{ .lg .middle } __VeloCrash__
 

@@ -110,5 +110,7 @@ Label the four quadrants for quick orientation:
 | **Value & Evolution** | 9–12      | Impact & future       |
 
 ---
+**Giovanni López, Late Summer 2025, Written with the aim to document my daily speaking with data, and people** :smile:
 
+---
 Jump to [Projects](./index.md) or back to [Résumé](../cv/index.md)

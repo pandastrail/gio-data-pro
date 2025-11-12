@@ -4,8 +4,7 @@
 ## Lessons from a Well-Run Bike Shop
 
 > *Whatever tools are in place, the quality of the recollection matters. Functional, true, and reliable beats shiny every time.*
-
-> *Or any cold and chilly run at night will always beat the best ever indoor cycling trainer session! :smile:*
+>> *Or any cold and chilly run at night will always beat the best ever indoor cycling trainer session! :smile:*
 
 This is an strategic/architecture thinking exercise... when doing POC's of web analytic tools in the past I have always thought of how to relate the online plaforms tracking solution design to actual physical entities.
 

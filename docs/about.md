@@ -14,7 +14,7 @@ Originally from **Morelia, Mexico**, calling **Zürich Unterland, Switzerland** 
 
 ---
 
-## Beyond the SQL and Bar Charts
+## Beyond the SQL, KPI's and OKR's
 
 I’m a certified **Swiss Cycling Guide** running [BikeFlow](https://www.bikeflow.ch/){:target="_blank"} , where I teach kids and adults the joy of balance and movement on two wheels.  
 
@@ -33,11 +33,11 @@ These values shape how I build: through collaboration, flexibility, and a consta
 
 | Discipline | Tools & Tech |
 |-------------|--------------|
-| Data Engineering | Python • SQL • AWS • Matillion • Postgres • Kafka  |
+| Data Engineering | Python • SQL • Matillion • Postgres • Redshift • Kafka • REST API |
 | Analytics & Tracking | GA4 • GTM • Tealium • Adobe Analytics |
 | Visualization | Streamlit • Matplotlib • Tableau |
-| Infrastructure | AWS • Ansible • Jenkins • Docker • GitHub|
-| Soft Skills | Mentoring • Storytelling • Cross-functional collaboration |
+| Infrastructure | AWS • Ansible • Jenkins • Docker • GitHub • Postman • Docker|
+| Soft Skills | Problem-Solving • Storytelling • Cross-functional collaboration • Inspire |
 
 ---
 

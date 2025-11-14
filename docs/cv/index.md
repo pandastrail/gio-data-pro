@@ -20,21 +20,9 @@ Here you’ll find tailored views of my experience, projects, and career evoluti
 
 ## Professional Journey
 
-<!--
-```mermaid
-%%{init: {'look':'handDrawn','theme':'forest'}}%%
-timeline
-  title Career Path
-  2004 : GE Aviation — Design Engineer (Aerospace Systems)
-  2010 : Kantonsspital Aarau — Clinical Engineering
-  2019 : JobCloud AG — Data Engineer (Web Tracking & Analytics)
-  2026 : Next Step — Leading Data Teams
-```
--->
-
 ![Gio's Path](../assets/images/career_path_hand.png)
 
-Across three very different worlds, aircraft engines, hospital ICUs, and online platforms, all them sharing the same engineering fundamentals (`you'd better know what you're doing`), I tend to reflect of my story as one of adaptation, curiosity, and quiet leadership.
+Across three very different worlds, aircraft engines, hospital ICUs, and online platforms, all them sharing the same engineering fundamentals (i.e. `you'd better know what you're doing`), I tend to reflect of my story as one of adaptation, curiosity, and quiet leadership.
 
 In my sometimes too idealistic and optimistic perspective, I aim to turn complexity into clarity, pressure into calm rhythm, and tools into value.
 
@@ -48,7 +36,7 @@ Here is a story, of my current Data Engineer Chapter. When the [company](https:/
 
 The goal was straight-forward, and a bit daunting as well, connecting, modeling, and visualizing data from hundreds of columns and millions of daily events. It first felt like staring at an ocean too wide to cross. But repetition, curiosity, and patience turned that chaos into fluency.
 
-About three or four months later after starting the project, I was not just maintaining the system but explaining it, becoming the go-to person for clarity in the noise.
+About three or four months later after starting the project, I was not just maintaining the system but explaining it, becoming the go-to person for clarity in the noise. On the center of all, one person always stands out for me, [Malte Kriegel](https://www.linkedin.com/in/malte-kriegel-8a2aa348/){:target="_blank"}. Malte is an extraordinary leader, who constantly creates opportunities and drives the growth and recognition of our Data Team, but most importantly he prioritizes communication, empathy, the human on the equation.
 
 After a while, what was once a dense, huge and unreadable dataset, the project became a living conversation and rows turned into rhythm, numbers into understanding.
 
@@ -119,6 +107,8 @@ And then there was the senior engineer, blunt, harsh, relentless, who insisted i
 “Follow the process. Diligence isn’t only about correctness.
 It protects you, and everyone else.”
 
+![Bolted Joints](../assets/images/bolted_joints.png)
+
 That was the moment I realized engineering wasn’t just math or CAD models.
 It was responsibility. Integrity. Rigor.
 
@@ -130,7 +120,7 @@ I wasn’t guessing anymore. I could explain everything, every limit, every cons
 
 I left those conversations feeling armored, carrying a toolbox of thinking I could apply anywhere. I felt tiny in the scale of GE… but solid in my growing ability to navigate it.
 
-On my final year at GE Aviation (how it was called around 2009, now it is GE Aerospace) I rememeber standing on a gigantic aircraft engines repair shop floor in Cardiff, Wales (it was my first time in Europe), were I realized how far I've gone, in only five years. The room was filled with engines and technicians and the hum of global engineering.
+On my final year at GE Aviation (how it was called around 2009, now it is GE Aerospace) I rememeber standing on a gigantic aircraft engines repair shop floor in Cardiff, Wales (it was my first time in Europe), were I realized how far I've gone, after only a few years. The room was filled with engines and technicians and the hum of global engineering.
 
 I looked around and thought:
 “How did I get here… and how far can I go?”
@@ -155,13 +145,50 @@ That was the true graduation moment for me, not a ceremony, but a sense of possi
 - Gained a lifelong respect for process, documentation, and accountability.
 - Learned that rigorous engineering paired with curiosity unlocks global opportunities.
 
+---
+
 ## Education
 
-{% for ed in cv.education %}
+### CAS Machine Intelligence & Information Engineering
 
-- **{{ ed.program }}**, {{ ed.institution }} ({{ ed.years }})
-  
-{% endfor %}
+> ZHAW School of Engineering (2017–2018)
+
+I had already spent years fixing things that mattered, aircraft engines, medical devices, (and of course, bikes), so when data started whispering “psst… there’s more to learn here”, I followed that curiosity straight into ZHAW.
+This CAS combo felt like opening a new toolbox: a mix of machine learning, data modeling, and applied engineering thinking.
+
+I then discovered that data could behave like a mechanical system, with signals, noise, structure, patterns, and that I could, somehow, “tune” models almost like tuning a bike derailleur. While studying the CAS I especially loved the modules where code met math and problems clicked in place like a gear set finding the right sprocket. I also particurlarly enjoyed the creative part when coding (or speaking SQL), even when choosing the framework or strategy to solve the problem, switching between **creating** and being **technically sound** is still a big part of what keeps me going.
+
+![Talking Data](../assets/images/cas_infoeng.png)
+
+**Highlight:** A hands-on project where, together with my group, we built [small ML pipelines](https://github.com/pandastrail/deeplearning_zhaw/blob/master/09_8_faces_CNN.ipynb){:target="_blank"}  that felt strangely similar to solving engineering problems I knew from the physical world, only now the machinery lived inside [Python notebooks](https://github.com/pandastrail/MAIN/blob/master/Appendix_A.ipynb){:target="_blank"}.
+
+---
+
+### Biomedical Engineering (Graduate Studies)
+
+> Universität Bern (2010-2012)
+
+Moving from engines to biology might seem strange, but it made perfect sense at the time. I had developed a taste for solving hard problems that had human outcomes. I wanted to pursue a Master programm for a while, and after exploring several option I went for the Uni Bern.
+Bern gave me a first look into how sensors, organs, and devices interact: noisy, living systems that require both precision and empathy.
+
+I think this exposure shaped how I like to see systems today: connected, (un)predictable, and profoundly human.
+
+**Highlight:** A biomechanics project where, together with my peers, we analyzed stress patterns in biological structures. It kind of gave me an early hint of the analytical mindset that would later move towards a data career.
+
+---
+
+### B.Sc. Mechanical Engineering
+
+> Universidad Michoacana de San Nicolás de Hidalgo (1997-2004)
+
+This is where everything started.
+A young student from Mexico, fascinated by how things work, studying thermodynamics under the hot sun, learning to calculate stresses while daydreaming about the open world.
+
+Mechanical engineering was the “grand opening”, pure curiosity turned into a profession. It taught me discipline, problem decomposition, and the quiet joy of turning equations into something meaningful.
+
+**Highlight:** My Bachelor's Thesis: Optimization of a Cast Aluminum Alloy for Diesel Engine Applications Through Microstructural Characterization and Mechanical Testing.
+
+---
 
 ## Personality at Work
 
